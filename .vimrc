@@ -54,6 +54,9 @@ set sessionoptions=blank,buffers,curdir,folds,globals,help,localoptions,options,
 set history=200
 set nocompatible
 
+set relativenumber
+set number
+
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 
 " create dir on save , use :W
